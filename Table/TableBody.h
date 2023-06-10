@@ -2,7 +2,6 @@
 
 #include <array>
 #include <vector>
-#include "BaseDataType.h"
 
 namespace Table
 {

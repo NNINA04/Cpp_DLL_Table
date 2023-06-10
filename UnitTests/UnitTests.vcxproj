@@ -188,7 +188,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Integer.cpp" />
     <ClCompile Include="NamedTable.cpp" />
     <ClCompile Include="TableBody.cpp" />
   </ItemGroup>

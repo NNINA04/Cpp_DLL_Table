@@ -3,15 +3,9 @@
 
 #include "framework.h"
 
-#include<string>
 #include<exception>
 #include<vector>
 #include<array>
-
-#include "BaseDataType.h"
-#include "IMultiplyable.h"
-#include "ISummable.h"
-#include "IValidator.h"
 
 #ifdef TABLE_EXPORTS
 #define TABLE_API __declspec(dllexport)

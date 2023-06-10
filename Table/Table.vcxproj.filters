@@ -16,35 +16,11 @@
     <Filter Include="Header Files\Common">
       <UniqueIdentifier>{f9597fa7-a200-4d2e-871a-457bbbbc6418}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\DataTypes">
-      <UniqueIdentifier>{f4705a4c-a107-4888-a21d-9b4d6e9c5786}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\DataTypes">
-      <UniqueIdentifier>{66116ee7-d594-4205-8e4f-5fb94168ca3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\DataTypes\Interfaces">
-      <UniqueIdentifier>{390a1627-0444-4438-b2c4-1b43e34d50a4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Common">
       <UniqueIdentifier>{af1f58f9-adad-4940-916d-7968f0ef035e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseDataType.h">
-      <Filter>Header Files\DataTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="IMultiplyable.h">
-      <Filter>Header Files\DataTypes\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="ISummable.h">
-      <Filter>Header Files\DataTypes\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="IValidator.h">
-      <Filter>Header Files\DataTypes\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="Integer.h">
-      <Filter>Header Files\DataTypes</Filter>
-    </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files\Common</Filter>
     </ClInclude>
@@ -64,9 +40,6 @@
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files\Common</Filter>
-    </ClCompile>
-    <ClCompile Include="Integer.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
